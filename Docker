@@ -1,0 +1,7 @@
+docker pull <distro> #baixa a img da distribuição do hub docker
+
+docker run -d -t --name <NOME_DO_CONTAINER> <distro> #Cria o container
+
+docker exec -it <NOME_DO_CONTAINER>  bash #entra no bash do container criado
+
+docker ps #mostra todos os containers criados.
