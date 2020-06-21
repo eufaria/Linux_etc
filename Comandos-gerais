@@ -3,3 +3,6 @@ useradd tiago
 
 #aplicar senha para o usuário
 passwd tiago
+
+#modificar permissões de usuário
+usermod 
