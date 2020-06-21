@@ -1,0 +1,5 @@
+#criar usuário linux
+useradd tiago
+
+#aplicar senha para o usuário
+passwd tiago
