@@ -1,12 +1,19 @@
-vagrant init <distro> #cria o arquivo VagrantFIle da distro solicitada
-	vagrant init centos/7
+#cria o arquivo VagrantFIle da distro solicitada
+vagrant init centos/7
 
-#edita arquivo VagrantFile - Para habilitar eth modo brigde
+#editar arquivo VagrantFile
+vim VagrantFile
+#descomenta a linha abaixo.
+config.vm.network "public_network"
 
-vagrant up #cria a VM no hypervisor
+#cria/habilita a VM no hypervisor
+vagrant up 
 
-vagrant ssh #acessa via ssh a VM criada.
+#acessa via ssh a VM criada
+vagrant ssh
 
-vagrant halt #desliga a VM criada
+#desliga a VM criada
+vagrant halt 
 
-vagrant destroy #Elimina a VM criada
+#Elimina a VM criada
+vagrant destroy
