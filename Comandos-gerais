@@ -5,4 +5,7 @@ useradd tiago
 passwd tiago
 
 #modificar permissões de usuário
-usermod 
+usermod
+
+#verificar unidade de discos montadas
+df
